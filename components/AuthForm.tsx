@@ -44,12 +44,6 @@ export default function AuthForm({ mode }: { mode: "register" | "signin" }) {
     setFormState({ ...initial });
       
   };
-    // [
-    //   formState.email,
-    //   formState.password,
-    //   formState.firstName,
-    //   formState.lastName,
-    // ]
 ;
 
   const content = mode === "register" ? registerContent : signinContent;
